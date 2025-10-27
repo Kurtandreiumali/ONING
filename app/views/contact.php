@@ -106,9 +106,9 @@
             <div class="col-lg-12 col-6 text-right">
               
                 <a href="/cart" class="btn border">
-                    <i class="fas fa-shopping-cart text-danger"></i>
-                    <span class="badge"><?php echo $cartItemCount; ?></span>
-                </a>
+                        <i class="fas fa-shopping-cart" style="color: #0b3d0b;"></i>
+                        <span class="badge"><?php echo $cartItemCount; ?></span>
+                    </a>
             </div>
         </div>
     </div>

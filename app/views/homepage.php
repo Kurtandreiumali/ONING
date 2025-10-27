@@ -90,10 +90,10 @@
             </div>
             <div class="col-lg-12 col-6 text-right">
               
-                <a href="/cart" class="btn border">
-                    <i class="fas fa-shopping-cart text-danger"></i>
-                    <span class="badge"><?php echo $cartItemCount; ?></span>
-                </a>
+                 <a href="/cart" class="btn border">
+                        <i class="fas fa-shopping-cart" style="color: #0b3d0b;"></i>
+                        <span class="badge"><?php echo $cartItemCount; ?></span>
+                    </a>
             </div>
         </div>
     </div>
@@ -194,36 +194,35 @@
 
 
     <!-- Featured Start -->
-    <div class="container-fluid pt-5">
-        <div class="row px-xl-5 pb-3">
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-leaf text-danger m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Fresh Ingredients</h5>
-                </div>
+<div class="container-fluid pt-5">
+    <div class="row px-xl-5 pb-3">
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-leaf m-0 mr-3" style="color: #0b3d0b;"></h1>
+                <h5 class="font-weight-semi-bold m-0">Walk Naturally</h5>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-shipping-fast text-danger m-0 mr-2"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Fast Delivery</h5>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-shipping-fast m-0 mr-2" style="color: #0b3d0b;"></h1>
+                <h5 class="font-weight-semi-bold m-0">Fast Delivery</h5>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fas fa-hand-holding-heart text-danger m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Made with Love</h5>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fas fa-box-open m-0 mr-3" style="color: #0b3d0b;"></h1>
+                <h5 class="font-weight-semi-bold m-0">Quality Products</h5>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
-                <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
-                    <h1 class="fa fa-headset text-danger m-0 mr-3"></h1>
-                    <h5 class="font-weight-semi-bold m-0">Customer Support</h5>
-                </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
+            <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
+                <h1 class="fa fa-headset m-0 mr-3" style="color: #0b3d0b;"></h1>
+                <h5 class="font-weight-semi-bold m-0">Customer Support</h5>
             </div>
         </div>
     </div>
-    <!-- Featured End -->
-
+</div>
+<!-- Featured End -->
     <!-- Contact Start -->
 <div class="container-fluid pt-5">
     <div class="text-center mb-4">

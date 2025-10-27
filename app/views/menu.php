@@ -105,10 +105,10 @@
             </div>
             <div class="col-lg-12 col-6 text-right">
 
-                <a href="/cart" class="btn border">
-                    <i class="fas fa-shopping-cart text-danger"></i>
-                    <span class="badge"><?php echo $cartItemCount; ?></span>
-                </a>
+                 <a href="/cart" class="btn border">
+                        <i class="fas fa-shopping-cart" style="color: #0b3d0b;"></i>
+                        <span class="badge"><?php echo $cartItemCount; ?></span>
+                    </a>
             </div>
         </div>
     </div>
@@ -151,12 +151,12 @@
                                
                                 <input type="text" class="form-control" name="search" placeholder="Search by name">
                                     <div class="input-group-append">
-                                    <button type="submit" class="btn btn-primary" style="background-color: #FFEB3B; border-color: #FFEB3B;">
+                                    <button type="submit" class="btn btn-primary" style="background-color: rgb(209, 236, 241); border-color: #0b3d0b;">
                                         <i class="fa fa-search"></i>
                                     </button>
 
                                     </div>
-                                    <a href="/shop" class="btn btn-primary"style="background-color: #FFEB3B; border-color: #FFEB3B;" onclick="location.reload(true)">
+                                    <a href="/shop" class="btn btn-primary"style="background-color: rgb(209, 236, 241); border-color: #0b3d0b;" onclick="location.reload(true)">
                                     <i class="fas fa-sync-alt"></i>
                                     </a>
                                 </div>
